@@ -1,6 +1,6 @@
 %define name	cowbell
 %define version 0.2.7.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Music collection organizer and editor
