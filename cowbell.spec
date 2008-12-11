@@ -12,7 +12,7 @@ URL:		http://more-cowbell.org/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	pkgconfig ImageMagick
+BuildRequires:	pkgconfig imagemagick
 BuildRequires:	mono-devel gtk-sharp2 glade-sharp2
 BuildRequires:	taglib-devel
 BuildRequires:  perl(XML::Parser)
