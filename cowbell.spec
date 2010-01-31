@@ -1,6 +1,6 @@
 %define name	cowbell
 %define version 0.2.7.1
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name: 	 	%{name}
 Summary: 	Music collection organizer and editor
@@ -9,7 +9,7 @@ Release: 	%{release}
 
 Source:		http://more-cowbell.org/releases/%{name}-%{version}.tar.bz2
 URL:		http://more-cowbell.org/
-License:	GPL
+License:	GPLv2+
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	pkgconfig imagemagick
