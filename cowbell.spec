@@ -1,6 +1,6 @@
 %define name	cowbell
 %define version 0.2.7.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name: 	 	%{name}
 Summary: 	Music collection organizer and editor
@@ -35,8 +35,8 @@ snatch album art and rename your music files like a pro.
 %setup -q
 
 %build
+perl -p -i -e 's/lib\/cowbell/%{_lib}\/cowbell/g' Makefile* cowbell.in
 %configure2_5x
-perl -p -i -e 's/lib\/cowbell/%{_lib}\/cowbell/g' Makefile
 %make
 										
 %install
