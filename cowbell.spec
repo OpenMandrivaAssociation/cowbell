@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://more-cowbell.org/releases/%{name}-%{version}.tar.bz2
-URL:		http://more-cowbell.org/
+URL:		https://more-cowbell.org/
 License:	GPLv2+
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
