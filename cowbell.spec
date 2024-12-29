@@ -5,7 +5,7 @@
 Name: 	 	%{name}
 Summary: 	Music collection organizer and editor
 Version: 	%{version}
-Release: 	%{release}
+Release: 	%{release}1
 
 Source:		http://more-cowbell.org/releases/%{name}-%{version}.tar.bz2
 URL:		https://more-cowbell.org/
